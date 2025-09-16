@@ -1,0 +1,19 @@
+def add(x, y):
+    """Add function"""
+    return x + y
+
+
+def subtract(x, y):
+    """subtraction function"""
+    return x - y
+
+def multiply(x, y):
+    """multiplication function"""
+    return x * y
+
+
+def divide(x, y):
+
+    if y == 0:
+        raise ValueError("Cannot divide by Zero")
+    return x / y
